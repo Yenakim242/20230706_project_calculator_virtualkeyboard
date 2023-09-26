@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator with various div boxes</title>
+    <script src="js/calculator_div.js" defer></script>
+    <style>
+        /* div{
+            width: 300px;
+            height: 200px;
+        } */
+        form{
+            width: 350px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid black;
+            background-color: violet;
+            color: white;
+        }
+        .input01{
+            width: 100%;
+            margin: 5px 0;
+        }
+        span{
+            display: block;
+            background-color: palegoldenrod;
+            margin-top: 20px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Calculator with various div boxes</h2>
+    <form>
+        <label for="cant_div">¿Cuántos divs quieres?</label>
+        <input type="number" name="cant_div" id="cant_div" class="inputPrimero" min="1"><br>
+        <button type="button" onclick="crearDivs()">Crear</button>
+    </form>
+</body>
+</html>

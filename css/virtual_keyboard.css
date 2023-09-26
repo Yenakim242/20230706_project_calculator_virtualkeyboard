@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tecladoVirtual{
+    display:block;
+    margin: auto;
+    padding: 10px;
+    background-color: bisque;
+}
+/* .pantallaTeclado{
+    background-color: tomato;
+    border: 1px solid rgb(253, 76, 45);
+    border-radius: 5px;
+    padding: 0px 0px 5px 0px;
+    margin: 20px;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.pantallaTextarea{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    color: #000;
+    background-color: lightcyan;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+
+#keyboard{
+    background-color: #ffc4bc;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 5px 15px;
+    margin: 2px;
+}
+
+.verde{
+    color: #00ff00
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
+
+.lowerCase{
+    text-transform: lowercase;
+}
